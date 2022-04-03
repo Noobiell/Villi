@@ -5,6 +5,10 @@ body{
 .headerCustom{
     border-bottom: 1px solid rgb(255, 235, 52);
 }
+#servicos, #sobreNos{
+    background-color: #f8f9fa;
+    padding: 102px 0px;
+}
 
 /*BANNER*/
 #banner{
@@ -32,6 +36,98 @@ body{
     max-height: 450px;
     text-align: center;
 }
-.imgDireita{
-    margin-left: 35%;
+.containerImagemBanner{
+    text-align: right;
+}
+
+/*ALGUNS DE NOSSOS SERVIÇOS*/
+.containerServicos{
+    border: 1px solid #ffdf2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 15px;
+    padding: 40px 20px 20px 20px;
+    background-color: #fff;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.listaVantagens{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.listaVantagens li{
+    font-size: 14px;
+}
+.iconServicos{
+    font-size: 90px;
+}
+.tituloServicos{
+    font-size: 30px;
+    text-align: center;
+}
+.textoServicos{
+    text-align: center;
+    font-size: 14px;
+}
+
+/*SOBRE NOS */
+.textoSobrenos{
+    font-size: 20px;
+    text-align: center;
+}
+.btnWhatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #128c7e;
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btnWhatsapp:hover{
+    transform: translateY(-20px);
+    color: #fff;
+}
+
+/*---------------- MEDIA QUERIES -----------------*/
+@media screen and (max-width: 575px){
+    #bannersInicio{
+        height: 800px;
+    }
+    .imgSenhores{
+        max-height: 300px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+    #bannersInicio{
+        height: 800px;
+    }
+    .imgSenhores{
+        max-height: 300px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #bannersInicio{
+        height: 450px;
+    }
+    .imgSenhores{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #bannersInicio{
+        height: 500px;
+    }
 }
