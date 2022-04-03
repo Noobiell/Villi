@@ -9,11 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="assets/css/custom.css" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/59f636855b.js" crossorigin="anonymous"></script>
+
     <title>VILI SOLUÇÕES FINANCEIRAS</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top headerCustom">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top headerCustom">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="assets/img/logo PNG sem fundo.png" class="img-fluid" width="60px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -27,10 +29,13 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="#banner">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">FGTS</a>
+                  <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobreNos">Sobre nós</a>
                 </li>
               </ul>
             </div>
@@ -45,15 +50,17 @@
             <button type="button" data-bs-target="#bannersInicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#bannersInicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#bannersInicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#bannersInicio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#bannersInicio" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="container">
                 <div class="row">
-                  <div class="col-6">
-                    <img src="assets/img/model.png" class="img-fluid imgBanner">
+                  <div class="col-md-6">
+                    <img src="assets/img/modelo.png" class="img-fluid imgBanner">
                   </div><!--Fim col-->
-                  <div class="col-6">
+                  <div class="col-md-6">
                     <div class="containerTextoBanner">
                       <h1>Realize os seus sonhos de forma simples e segura!</h1>
                       <h5>Oferecemos os melhores benefícios para você.</h3>
@@ -66,15 +73,18 @@
             <div class="carousel-item">
               <div class="container">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-md-6">
                     <div class="containerTextoBanner">
-                      <h1>CREDITO CONSIGNADO</h1>
-                      <h5>É a modalidade de crédito com as melhores taxas do Mercado. Ideal para funcionários públicos, militares, aposentados e pensionista, titulares de Benefício de Prestação Continuada (BPC/LOAS), de forma simples e descomplicada. </h5>
+                      <h1>FGTS</h1>
+                      <h3>Como faço para sacar imediatamente o meu saldo FGTS?</h3>
+                      <h6>Pela modalidade do saque aniversário você pode antecipar até 12 anos do seu FGTS.</h6>
                       <a class="btnSaibaMais" href="#">Saiba mais!</a>
                     </div><!--Fim containerTexto-->
                   </div><!--Fim col-->
-                  <div class="col-6">
-                    <img src="assets/img/model2.png" class="img-fluid imgBanner imgDireita">
+                  <div class="col-md-6">
+                    <div class="containerImagemBanner">
+                      <img src="assets/img/saqueFGTS.png" class="img-fluid imgBanner">
+                    </div>
                   </div><!--Fim col-->
                 </div><!--Fim row-->
               </div><!--Fim container-->
@@ -82,13 +92,49 @@
             <div class="carousel-item">
               <div class="container">
                 <div class="row">
-                  <div class="col-6">
-                    <img src="assets/img/model3.png" class="img-fluid imgBanner">
-                  </div><!--Fim col-->
-                  <div class="col-6">
+                  <div class="col-md-12 col-lg-6">
                     <div class="containerTextoBanner">
-                      <h1>CONSÓRCIO</h1>
-                      <h5>Com a modalidade consórcio você pode adquirir de forma facilitada e sem juros os seus propósitos financeiros: Casa própria, reforma, construção, veículos, ouro, outros produtos ou serviços (celulares, eletrodomésticos, eletroeletrônicos, cirurgias plásticas - mediante nota fiscal). </h5>
+                      <h1>CREDITO CONSIGNADO</h1>
+                      <h5>CREDITO CONSIGNADO – É a modalidade de crédito com as melhores taxas do Mercado. Ideal para funcionários públicos, militares, aposentados e pensionista, titulares de Benefício de Prestação Continuada (BPC/LOAS), de forma simples e descomplicada. </h5>
+                      <h1>CARTÃO CONSIGNADO</h1>
+                      <h5>O cartão consignado é um cartão de crédito com valores mais acessíveis e possibilidade de saque em dinheiro. </h5>
+                      <a class="btnSaibaMais" href="#">Saiba mais!</a>
+                    </div><!--Fim containerTexto-->
+                  </div><!--Fim col-->
+                  <div class="col-lg-6">
+                    <div class="containerImagemBanner">
+                      <img src="assets/img/cartao_e_credito_consignado.png" class="img-fluid imgBanner imgSenhores">
+                    </div>
+                  </div><!--Fim col-->
+                </div><!--Fim row-->
+              </div><!--Fim container-->
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/img/energia_solar.png" class="img-fluid imgBanner">
+                  </div><!--Fim col-->
+                  <div class="col-md-6">
+                    <div class="containerTextoBanner">
+                      <h1>ENERGIA SOLAR</h1>
+                      <h5>A energia solar fotovoltaica é uma fonte de energia limpa e que cabe no seu bolso. Com a energia solar você pode reduzir em 90% o valor da sua conta de energia.</h5>
+                      <a class="btnSaibaMais" href="#">Saiba mais!</a>
+                    </div><!--Fim containerTexto-->
+                  </div><!--Fim col-->
+                </div><!--Fim row-->
+              </div><!--Fim container-->
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/img/financiamentos.png" class="img-fluid imgBanner">
+                  </div><!--Fim col-->
+                  <div class="col-md-6">
+                    <div class="containerTextoBanner">
+                      <h1>Financiamento</h1>
+                      <h5>Agora você pode adquirir seu veículo ou imóvel de forma rápida e segura o Financiamento pode te oferecer condições facilitadas, possibilidade de liquidação antecipada, tarifas menores e segurança. </h5>
                       <a class="btnSaibaMais" href="#">Saiba mais!</a>
                     </div><!--Fim containerTexto-->
                   </div><!--Fim col-->
@@ -107,9 +153,78 @@
         </div>
       </section>
 
-      <section id="">
+      <section id="servicos">
+        <div class="container">
+          <h1 class="text-center mb-5">Alguns de nossos serviços!</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="fas fa-chart-line iconServicos"></i>
+                <span class="tituloServicos">Vantagens</span>
+                <ul class="listaVantagens">
+                  <li>Redução de custos e proteção ao aumento do preço da energia</li>
+                  <li>A energia solar é uma fonte limpa de energia e livre da emissão de CO2 na atmosfera</li>
+                  <li>Instalação rápida</li>
+                </ul>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
 
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="fas fa-hand-holding-usd iconServicos"></i>
+                <span class="tituloServicos">Consórcio</span>
+                <span class="textoServicos">Com a modalidade consórcio você pode adquirir de forma facilitada e sem juros os seus propósitos financeiros: Casa própria, reforma, construção, veículos, ouro, outros produtos ou serviços (celulares, eletrodomésticos, eletroeletrônicos, cirurgias plásticas - mediante nota fiscal).</span>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
+
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="far fa-handshake iconServicos"></i>
+                <span class="tituloServicos">Empréstimo pessoal</span>
+                <span  class="textoServicos">Essa modalidade é para você que busca por oportunidades financeiras de forma simples e descomplicada, com flexibilidade nos prazos de pagamento. Nós possuímos as melhores condições do mercado.</span>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
+
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="far fa-check-circle iconServicos"></i>
+                <span class="tituloServicos">Crédito em Garantia </span>
+                <span  class="textoServicos">Se você tem um veículo ou um imóvel, está precisando de dinheiro e não gosta de pagar juros, a modalidade Crédito em Garantia é a melhor solução. Você poderá obter até 100% do valor do seu veículo ou imóvel em dinheiro com as melhores taxas do mercado. </span>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
+
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="fas fa-shield-alt iconServicos"></i>
+                <span class="tituloServicos">Seguros</span>
+                <span  class="textoServicos">Seja no seu dia a dia, seja nos negócios a segurança é o que há de mais importante. A Vili Financeira que assegurar a sua tranquilidade com opções de seguro para veículo, imóveis e prestamista.</span>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
+
+            <div class="col-md-6 col-lg-4">
+              <div class="containerServicos">
+                <i class="fas fa-headset iconServicos"></i>
+                <span class="tituloServicos">CTA</span>
+                <span  class="textoServicos">Deixe o seu número de telefone que um de nossos consultores especialistas estarão entrando em contato com você para entender melhor as suas necessidades e estudar a solução que se encaixa para você!</span>
+              </div><!--Fim containerServiços-->
+            </div><!--Fim col-->
+          </div><!--Fim row-->
+        </div><!--Fim container-->
       </section>
+
+      <section id="sobreNos">
+        <div class="container">
+          <h1 class="text-center mb-5">Sobre nós</h1>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="textoSobrenos">A Vili Soluções Financeiras é uma empresa que prima pela responsabilidade, ética e respeito ao cliente, e atua junto às maiores instituições financeiras do país.</p>
+              <p class="textoSobrenos">Trabalhamos de forma prática e segura, com os melhores consultores especialistas, buscando as melhores oportunidades do mercado para você! Se você busca reorganizar as suas finanças, ter acesso a bens e serviços ou realizar os seus sonhos nós queremos te ajudar!</p>
+            </div><!--Fim col-->
+          </div><!--Fim row-->
+        </div><!--Fim container-->
+      </section>
+
+      <a class="btnWhatsapp rounded-circle" href="https://api.whatsapp.com/send?phone=5518997028728&text=Vim através do site perguntar sobre: " target="_blank"><i class="fab fa-whatsapp"></i></a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
